@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #da1768;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.des_text{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ justify-items: center;
+ height: 70vh;
+
+}
+.H1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 47px;
+  color: #54B34F;
+
+}
+
+.discription{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 47px;
+
+}
+.img1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  height: 70vh;}
+  span{
+    color: black;
+  }
+a>i{
+  color: #54B34F;
+  font-size: 19px;
+  padding-right: 15px;
+}
+
+
+.input-group-text{
+  cursor: pointer;
+  background-color:#54B34F;
+
+}
+.bodytitle{
+  font-size: 100px;
+  text-align: center;
+}
+.for{
+  color: #54B34F;
+}
+.slogan{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  color: #000000;
+  text-align: center;
+  text-decoration: underline;
+}
+.pname{
+  font-family: 'Poppins', Courier, monospace;
+  font-weight: bolder;
+  padding: 10px;
+}
+.pdes{
+  font-family: 'Poppins', Courier, monospace; ;
+}
+  .carta{
+    box-shadow: 2px 1px 14px -7px #000000;
+    margin-top: 20px;
+
+  }
+
+  @media screen and (max-width: 992px) {
+    .des_text {
+      height: 20vh;
+      
+    }
+    .img1{
+      height: 50vh;
+
+    }
+    .des_text{
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .img1{
+      padding-top: 150px;
+      height: 50%;
+      width: 80%;
+      
+
+    }
+    .H1{
+      
+      font-size: 25px;
+      
+    
+    }
+    
+    .discription{
+      
+     
+      font-size: 25px;
+    
+    }
+  }
