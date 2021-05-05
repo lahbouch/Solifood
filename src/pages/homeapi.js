@@ -31,7 +31,7 @@ import Search from './Search'
       return (
     <>
 <Row>
-<div className="col-lg-8 ">
+<div className="col-lg-12 ">
 
 <Search getSearsh={this.GitDATAsearch}/>
 
